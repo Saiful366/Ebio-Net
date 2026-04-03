@@ -1,6 +1,6 @@
 # 🌿 Ebio-Net 
 
-A powerful, high-performance AI classification pipeline for detection and monitoring of disease types and spread. This application leverages an optimized **EfficientNet** neural engine to provide industrial-grade plant type identification with 90%+ target accuracy.
+A powerful, high-performance AI classification pipeline for detection and monitoring of disease types and spread. This application leverages an optimized **EfficientNet** neural engine to provide scalable high-throughput plant disease type identification with 90%+ target accuracy.
 
 ![Ebio-Net](Image/Image.png)
 
