@@ -1,0 +1,38 @@
+
+    EFFICIENTNET-B0 CUSTOM ARCHITECTURE SCHEMATIC
+    =============================================
+
+    [ INPUT IMAGE ] (224 x 224 x 3)
+           |
+           v
+    +---------------------------+
+    |   DATA AUGMENTATION       |
+    | (RandomFlip, Rotation)    |
+    +---------------------------+
+           |
+           v
+    +---------------------------+
+    |   EFFICIENTNET-B0         | <--- Pre-trained Backbone (ImageNet)
+    | (Feature Extractor)       |      (237 Layers)
+    +---------------------------+
+           |
+           v
+    +---------------------------+
+    | GlobalAveragePooling2D    | <--- Dimensionality Reduction
+    | (7x7x1280 -> 1280)        |
+    +---------------------------+
+           |
+           v
+    +---------------------------+
+    |       DROPOUT (0.3)       | <--- Regularization
+    +---------------------------+
+           |
+           v
+    +---------------------------+
+    |       DENSE LAYER         | <--- Classification Head
+    | (6 Neurons, Softmax)      |
+    +---------------------------+
+           |
+           v
+    [ OUTPUT PROBABILITIES ] (Types 1-6)
+    
