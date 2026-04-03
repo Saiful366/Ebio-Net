@@ -14,6 +14,14 @@ A powerful, high-performance AI classification pipeline for detection and monito
 
 ## 🛠️ Quick Start Guide
 
+### 0. Get the App
+Clone the repository and navigate into the App folder:
+```bash
+git clone https://github.com/Saiful366/Ebio-Net.git
+cd Ebio-Net/App
+```
+> Or download the ZIP from GitHub and open the `App` folder in your terminal.
+
 ### 1. Environment Setup
 Create and activate a dedicated conda environment (Python 3.11 recommended for TensorFlow compatibility):
 ```bash
