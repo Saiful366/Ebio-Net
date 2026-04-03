@@ -1,4 +1,4 @@
-# 🌿 PlantVision AI | Enterprise Edition
+# 🌿 Ebio-Net | Enterprise Edition
 
 A powerful, high-performance AI classification pipeline for professional horticulture analysis. This application leverages an optimized **EfficientNet** neural engine to provide industrial-grade plant type identification with 90%+ target accuracy.
 
@@ -27,8 +27,6 @@ streamlit run app.py
 ```
 The application will launch at `http://localhost:8501`.
 
-
-
 ## 💻 Operational Modes
 
 ### 🎯 Precision Analysis (Single)
@@ -42,12 +40,12 @@ The application will launch at `http://localhost:8501`.
 2. **Option A — Directory Path**: Paste the full local folder path (e.g. `/Users/saiful/Downloads/images`) into the directory input field and click `CONFIRM DIRECTORY`.
 3. **Option B — Manual Upload**: Select multiple images using the file uploader.
 4. Click `START PIPELINE PROCESSING` to begin the mass-scan.
-5. Download the consolidated **Industrial CSV Report** once the progress bar reaches 100%.
+5. Download the consolidated **CSV Report** once the progress bar reaches 100%.
 
 ## 📁 System Architecture
-*   `app.py`: Main industrial core and UI controller.
+*   `app.py`: Main application core and UI controller.
 *   `restored_best_model_88.keras`: The optimized Deep Learning weight file.
-*   `requirements.txt`: Engine dependency specifications.
+*   `requirements.txt`: Dependency specifications.
 *   `README.md`: This technical documentation.
 
 ## ⚠️ Engine Specifications
@@ -58,4 +56,4 @@ The application will launch at `http://localhost:8501`.
 *   **Python**: 3.11 (conda environment: `modelapp`)
 
 ---
-*© 2026 PlantVision Precision Systems • v3.6 Industrial Core*
+*© 2026 Ebio-Net Systems • v3.6 Industrial Core*
