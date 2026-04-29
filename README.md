@@ -148,7 +148,7 @@ If you use Ebio-Net in your research or project, please cite it as:
 
 Or in plain text:
 
-> Saiful Islam. (2026). *Ebio-Net: AI-Powered Plant Disease Classification Pipeline* (v3.6). GitHub. https://github.com/Saiful366/Ebio-Net
+> Saiful Islam. (2026). *EBio-Net: a deep learning framework for ordinal classification of bacterial colonization levels in Arabidopsis thaliana leaves* (v3.6). GitHub. https://github.com/Saiful366/Ebio-Net
 
 ---
 *© 2026 Ebio-Net Systems • v3.6 Industrial Core*
