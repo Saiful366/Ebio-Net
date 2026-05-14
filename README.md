@@ -4,6 +4,8 @@ A powerful, high-performance AI classification system for detection of bacterial
 
 ![Ebio-Net](Image/Image.png)
 
+![Ebio-Net](Image/Image1.png)
+
 ## 🚀 Key Features
 
 *   **Precision Neural Scan**: High-fidelity analysis for single plant leaves with automated image labeling.
