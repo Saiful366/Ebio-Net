@@ -4,7 +4,7 @@ A powerful, high-performance AI classification system for detection of bacterial
 
 ![Ebio-Net](Image/Image.png)
 
-![Ebio-Net](Image/Image1.png)
+![Ebio-Net](Image/Image 1.png)
 
 ## 🚀 Key Features
 
